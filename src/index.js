@@ -1,8 +1,8 @@
 export default function () {
-  const myTestVariable = 1
+  var thisYear = 2015
 
-  if (myTestVariable === 2) {
-    return false
+  if (thisYear != 2015) {
+    return 2014
   }
 
   return true
